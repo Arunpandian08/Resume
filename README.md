@@ -1,0 +1,1 @@
+### Resume deployed in 💨 click (👉 [netlify.com](https://arun-resume-html-css-only.netlify.app/) )
