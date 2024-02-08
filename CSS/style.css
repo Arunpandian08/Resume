@@ -1,0 +1,110 @@
+html{
+    width: 100% !important;
+    margin: 2px;
+    padding: 1px;
+    
+}
+.container-md{
+    display: grid;
+    padding: 10px;
+}
+
+
+.header{
+    color: white !important;
+    padding-top: 6px !important;
+    font-family: Cinzel !important;
+    background-color: #070c58 !important;
+    box-shadow: 0px 0px 10px #070c58 !important;
+    box-shadow: 0px 0px 20px #070c58 !important;
+}
+
+hr{
+    background:#070c58 !important;
+}
+
+.skill-head{
+    padding-top: 20px !important;
+}
+
+@media screen and (min-width: 426px) {
+    .skill-card{
+            display:inline;
+    }
+}
+
+.first-page{
+    border-right: 2px solid #0b0b0b;
+}
+
+@media only screen and (max-width: 990px) {
+    .first-page{
+        border-right: none;
+    }
+}
+
+.title{
+    padding-top: 20px;
+}
+
+
+.img-thumbnail{
+    height: 80% !important;
+}
+
+.img-fluid{
+  display: block !important;
+  padding-left: 50px !important;
+  padding-right: -100px !important;
+}
+
+.img-fluid:hover{
+    transform: rotate(360deg);
+    transform: scale(1.1);
+}
+
+.logo{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    a{
+        padding: 10px;
+    }
+}
+
+.row{
+    justify-content: space-around;
+}
+
+.contact{
+    font-size: 1.2rem;
+    font-family: Alegreya Sans SC;
+    text-align: center;
+    padding-right: 20px;
+}
+.contact h2{
+    font-family: Merienda;
+}
+.contact h5{
+    font-family: 'Times New Roman', Times, serif;
+}
+address>h6{
+    padding: 8px;
+    font-family: Exo  !important;
+}
+
+em{
+    font-size: 1.1rem;
+    font-family:Alegreya Sans SC !important;
+}
+
+table{
+    text-align: center;
+    padding: 20px !important;
+}
+
+.sign{
+    text-align: end;
+    padding: 10px !important;
+}
